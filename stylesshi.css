@@ -61,10 +61,9 @@ hr {
     }
 }
 
-hr.secondary {
+hr {
     border: none;
     height: 4px;
-    background-color: purple /* A lighter shade of purple */
-    margin: 15px auto;
-    width: 80%; /* Adjust width if needed */
+    background-color: purple;
+    margin: 10px auto;
 }
