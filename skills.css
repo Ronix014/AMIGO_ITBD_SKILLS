@@ -40,6 +40,14 @@ h2, p, .nav a, sup, b {
     background: #6a0dad;
     border-radius: 5px;
 }
+.nav a.active {
+    color: #1de9df;                /* White text */
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+}
 
 /* Container */
 .container {
@@ -67,18 +75,15 @@ h2, p, .nav a, sup, b {
 }
 
 /* Back to Top Button */
-.back-to-top {
+.btn {
     display: inline-block;
-    float: right;
-    margin-top: 5px;
-    background-color: #4b0082;
-    color: white;
-    font-weight: bold;
-    font-size: 14px;
-    padding: 6px 10px;
-    border-radius: 5px;
+    margin-top: 10px;
     text-decoration: none;
-    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    color: #4b0082;
+    padding: 10px;
+    border: 1px solid #4b0082;
+    border-radius: 5px;
 }
 
 .btn:hover {
