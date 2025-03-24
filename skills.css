@@ -92,19 +92,12 @@ h2, p, .nav a, sup, b {
 }
 
 /* Image Grid */
-.image-grid {
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    margin: 20px 0;
-}
-
 .image-grid img {
-    width: 23%;
-    height: auto;
-    border-radius: 8px;
-    object-fit: cover;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 23%; 
+  height: 350px;
+  border-radius: 8px;
+  object-fit: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 /* Responsive tweaks */
