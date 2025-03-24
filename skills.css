@@ -91,15 +91,6 @@ h2, p, .nav a, sup, b {
     color: white;
 }
 
-/* Image Grid */
-.image-grid img {
-    width: 23%; 
-  height: 350px;
-  border-radius: 8px;
-  object-fit: center;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
 /* Responsive tweaks */
 @media (max-width: 768px) {
     .container {
@@ -118,4 +109,13 @@ h2, p, .nav a, sup, b {
     .image-grid img {
         width: 100%;
     }
+}
+
+/* Image Grid */
+.image-grid img {
+    width: 23%; 
+  height: 350px;
+  border-radius: 8px;
+  object-fit: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
