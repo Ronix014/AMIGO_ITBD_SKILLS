@@ -67,15 +67,18 @@ h2, p, .nav a, sup, b {
 }
 
 /* Back to Top Button */
-.btn {
+.back-to-top {
     display: inline-block;
-    margin-top: 10px;
-    text-decoration: none;
+    float: right;
+    margin-top: 5px;
+    background-color: #4b0082;
+    color: white;
     font-weight: bold;
-    color: #4b0082;
-    padding: 10px;
-    border: 1px solid #4b0082;
+    font-size: 14px;
+    padding: 6px 10px;
     border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
 }
 
 .btn:hover {
